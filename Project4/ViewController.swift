@@ -14,6 +14,7 @@ class ViewController: UIViewController, WKNavigationDelegate {
     var webView: WKWebView!
     var progressView: UIProgressView!
     var websites = ["apple.com", "hackingwithswift.com","twitter.com"]
+    var selectWebsite = 0
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -33,7 +34,7 @@ class ViewController: UIViewController, WKNavigationDelegate {
         navigationController?.isToolbarHidden = false
         navigationItem.rightBarButtonItem = UIBarButtonItem(title: "Open", style: .plain, target: self, action: #selector(openTapped))
         
-        let url = URL(string: "https://" + websites[0])!
+        let url = URL(string: "https://" + websites[selectWebsite])!
         webView.load(URLRequest(url: url))
         webView.allowsBackForwardNavigationGestures = true
         // Do any additional setup after loading the view.

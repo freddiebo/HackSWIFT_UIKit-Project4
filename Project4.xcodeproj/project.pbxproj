@@ -13,6 +13,7 @@
 		225EBE40239D2167002958E7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 225EBE3E239D2167002958E7 /* Main.storyboard */; };
 		225EBE42239D216C002958E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 225EBE41239D216C002958E7 /* Assets.xcassets */; };
 		225EBE45239D216C002958E7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 225EBE43239D216C002958E7 /* LaunchScreen.storyboard */; };
+		225EBE4D239E7794002958E7 /* tableSiteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225EBE4C239E7794002958E7 /* tableSiteView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		225EBE41239D216C002958E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		225EBE44239D216C002958E7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		225EBE46239D216C002958E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		225EBE4C239E7794002958E7 /* tableSiteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tableSiteView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +61,7 @@
 				225EBE38239D2167002958E7 /* AppDelegate.swift */,
 				225EBE3A239D2167002958E7 /* SceneDelegate.swift */,
 				225EBE3C239D2167002958E7 /* ViewController.swift */,
+				225EBE4C239E7794002958E7 /* tableSiteView.swift */,
 				225EBE3E239D2167002958E7 /* Main.storyboard */,
 				225EBE41239D216C002958E7 /* Assets.xcassets */,
 				225EBE43239D216C002958E7 /* LaunchScreen.storyboard */,
@@ -140,6 +143,7 @@
 			files = (
 				225EBE3D239D2167002958E7 /* ViewController.swift in Sources */,
 				225EBE39239D2167002958E7 /* AppDelegate.swift in Sources */,
+				225EBE4D239E7794002958E7 /* tableSiteView.swift in Sources */,
 				225EBE3B239D2167002958E7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
